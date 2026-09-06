@@ -1,0 +1,15 @@
+{
+  "name": "ai-lead-generation-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production AI Lead Generation Agent Monorepo",
+  "scripts": {
+    "dev:api": "npm --prefix apps/api run dev",
+    "start:api": "npm --prefix apps/api run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "workers/*"
+  ]
+}
